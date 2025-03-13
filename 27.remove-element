@@ -1,7 +1,0 @@
-class Solution:
-    def removeElement(self, nums: List[int], val: int) -> int:
-        val_num = nums.count(val)
-        while val_num > 0:
-            nums.remove(val)
-            val_num -= 1
-        return len(nums)
